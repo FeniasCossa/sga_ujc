@@ -1,4 +1,4 @@
-package mz.ujc.sga.model;
+package mz.ujc.sga.model.candidacy;
 
 import java.io.Serializable;
 
@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "candidate")
 @SequenceGenerator(name = "seq_candidate", sequenceName = "seq_candidate", allocationSize = 1, initialValue = 1)
-public class candidate implements Serializable {
+public class Candidate implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
